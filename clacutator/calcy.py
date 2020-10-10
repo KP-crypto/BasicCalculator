@@ -11,4 +11,8 @@ class Calculator:
         mul=n1*n2
         return mul
 
+    def divide_numbers(self,n1,n2):
+        result=n1/n2
+        return result
+
 

@@ -20,6 +20,11 @@ class Test001:
         result=cal.multiply(self.num1,self.num2)
         assert result
 
+    def test_divide_functionality(self):
+        cal=Calculator()
+        result=cal.divide_numbers(self.num1,self.num2)
+        assert result
+
 
 
 
